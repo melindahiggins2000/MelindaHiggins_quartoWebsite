@@ -42,11 +42,39 @@
     "text": "Add some tabs\n\ntab 1tab 2tab 3\n\n\nsome text on this one\n\n\n\nplot(cars)\n\n\n\n\n\n\nsome more tabs go here"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Melinda Higgins, PhD.",
+    "objectID": "posts/2024-02-11-newpost3/index.html",
+    "href": "posts/2024-02-11-newpost3/index.html",
+    "title": "First blog title",
     "section": "",
-    "text": "Melinda Higgins is co-founder of R-Ladies Atlanta and current (2020-2022) Vice Chair of District 5 for the American Statistical Association Council of Chapters. She is also the author/creator of two online courses: R for SAS Users and Reproducible Templates for Analysis and Dissemination. She is a senior biostatistician and research professor in the Office of Nursing Research - School of Nursing - Emory University in Atlanta, GA (2007-current). She is the author and teacher of two PhD level courses at Emory: Quantitative Analysis of Clinical Data every Fall semester and Big Data Analytics for Healthcare every Spring semester. Prior to that she was a Principal Research Scientist at the Georgia Tech Research Institute (1996-2011) and Program Manager for the $17M National Guard Bureau Technology Consortium.\nShe has over 25+ years experience performing and managing research in wide-ranging applications including healthcare bio-behavioral phenotype characterization and modeling, statistical support for clinical trials, aircraft sensor systems, remote sensing, multispectral/hyperspectral processing, signatures intelligence, knowledge decision support systems, geospatial information systems, sensors and image fusion, and target recognition."
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#header",
+    "href": "posts/2024-02-11-newpost3/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#code-example",
+    "href": "posts/2024-02-11-newpost3/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost3/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "First blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -56,10 +84,66 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Melinda Higgins, PhD.",
     "section": "",
-    "text": "No matching items"
+    "text": "Melinda Higgins is co-founder of R-Ladies Atlanta and current (2020-2022) Vice Chair of District 5 for the American Statistical Association Council of Chapters. She is also the author/creator of two online courses: R for SAS Users and Reproducible Templates for Analysis and Dissemination. She is a senior biostatistician and research professor in the Office of Nursing Research - School of Nursing - Emory University in Atlanta, GA (2007-current). She is the author and teacher of two PhD level courses at Emory: Quantitative Analysis of Clinical Data every Fall semester and Big Data Analytics for Healthcare every Spring semester. Prior to that she was a Principal Research Scientist at the Georgia Tech Research Institute (1996-2011) and Program Manager for the $17M National Guard Bureau Technology Consortium.\nShe has over 25+ years experience performing and managing research in wide-ranging applications including healthcare bio-behavioral phenotype characterization and modeling, statistical support for clinical trials, aircraft sensor systems, remote sensing, multispectral/hyperspectral processing, signatures intelligence, knowledge decision support systems, geospatial information systems, sensors and image fusion, and target recognition."
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html",
+    "href": "posts/2024-02-11-newpost2/index.html",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#header",
+    "href": "posts/2024-02-11-newpost2/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#code-example",
+    "href": "posts/2024-02-11-newpost2/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost2/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html",
+    "href": "posts/2024-02-11-newpost/index.html",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#header",
+    "href": "posts/2024-02-11-newpost/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#code-example",
+    "href": "posts/2024-02-11-newpost/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
   }
 ]
