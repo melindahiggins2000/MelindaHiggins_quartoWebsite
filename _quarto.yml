@@ -7,6 +7,8 @@ project:
 
 website:
   title: "Melinda Higgins - Website Built with Quarto"
+  site-url: https://melindahiggins2.netlify.app/
+  description: "Melinda Higgins Website and Blog"
   favicon: favicon-32x32.png
   navbar:
     title: Melinda Higgins
@@ -24,6 +26,8 @@ website:
         text: CV
       - icon: github
         href: https://github.com/melindahiggins2000
+      - icon: rss
+        href: posts.xml
   page-footer:
     background: light
     left:

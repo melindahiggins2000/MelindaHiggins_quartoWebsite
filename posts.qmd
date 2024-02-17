@@ -6,6 +6,8 @@ listing:
   type: grid # or `default` or `table`; each type has its own set of yaml options to include
   sort: "date desc" # can also sort on more than one field
   categories: true # allows you to sort posts by assigned categories 
+  feed:
+    categories: [R, Quarto, Rmarkdown, SAS]
   max-description-length: 200
   date-format: medium
 page-layout: full
