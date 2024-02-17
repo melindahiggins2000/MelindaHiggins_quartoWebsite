@@ -223,8 +223,20 @@ hr {
 }
 
 // idk?
-.panel-tabset {
-  font-size: 30px;
+//.panel-tabset {
+//  font-size: 30px;
+//}
+
+.panel-tabset [role=tab][aria-selected=true] {
+  background-color: #9fefb2;
+  border: 1px solid #bbb;
+  border-bottom-color: #fff;
+}
+
+.panel-tabset [role=tab][aria-selected=false] {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-bottom-color: #fff;
 }
 
 // margins of posts?
