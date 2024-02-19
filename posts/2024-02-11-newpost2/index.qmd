@@ -8,6 +8,7 @@ author:
     affiliation: Director of Biostatistics and Data Core, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA
     affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins
 date: 02-11-2024
+date-modified: 02/17/2024
 categories: [Quarto, R] # self-defined categories
 citation: 
   url: https://melindahiggins2000.github.io/quarto_webdemo/posts/2024-02-11-newpost/ 

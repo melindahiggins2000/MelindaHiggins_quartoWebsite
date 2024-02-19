@@ -1,10 +1,27 @@
 [
   {
+    "listing": "/posts_custom.html",
+    "items": [
+      "/posts/2024-02-11-newpost2/index.html",
+      "/posts/2024-02-11-newpost3/index.html",
+      "/posts/2024-02-11-newpost/index.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/2024-02-11-newpost2/index.html",
       "/posts/2024-02-11-newpost3/index.html",
       "/posts/2024-02-11-newpost/index.html"
+    ]
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courses/Emory_N736_Course/index.html",
+      "/courses/Emory_N741_Course/index.html",
+      "/courses/Datacamp_R4SAS/index.html",
+      "/courses/Coursera_RepTemplates/index.html"
     ]
   }
 ]

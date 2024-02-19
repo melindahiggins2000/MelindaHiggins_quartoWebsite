@@ -1,0 +1,143 @@
+---
+title: "Publications"
+filters:
+  - multibib
+validate-yaml: false
+bibliography:
+  year2024: myrefs_2024.bib
+  year2023: myrefs_2023.bib
+  year2022: myrefs_2022.bib
+  year2021: myrefs_2021.bib
+  year2020: myrefs_2020.bib
+  year2019: myrefs_2019.bib
+  year2018: myrefs_2018.bib
+  year2017: myrefs_2017.bib
+  year2016: myrefs_2016.bib
+  year2015: myrefs_2015.bib
+  year2014: myrefs_2014.bib
+  year2013: myrefs_2013.bib
+  year2012: myrefs_2012.bib
+  year2011: myrefs_2011.bib
+  year2010: myrefs_2010_earlier.bib
+nocite: '@*'
+---
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2024 Publications
+
+::: {#refs-year2024}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2023 Publications
+
+::: {#refs-year2023}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2022 Publications
+
+::: {#refs-year2022}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2021 Publications
+
+::: {#refs-year2021}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2020 Publications
+
+::: {#refs-year2020}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2019 Publications
+
+::: {#refs-year2019}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2018 Publications
+
+::: {#refs-year2018}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2017 Publications
+
+::: {#refs-year2017}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2016 Publications
+
+::: {#refs-year2016}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2015 Publications
+
+::: {#refs-year2015}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2014 Publications
+
+::: {#refs-year2014}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2013 Publications
+
+::: {#refs-year2013}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2012 Publications
+
+::: {#refs-year2012}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2011 Publications
+
+::: {#refs-year2011}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2010 Publications
+
+::: {#refs-year2010}
+:::
+
+:::

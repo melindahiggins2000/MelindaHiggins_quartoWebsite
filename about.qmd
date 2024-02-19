@@ -16,6 +16,7 @@ title: "Research Interest, Skills, Experience and Education"
 * Biostatistics and Research
 * [R](https://cran.r-project.org/) and formally [S/S+](https://en.wikipedia.org/wiki/S_(programming_language))
 * [Rmarkdown](https://rmarkdown.rstudio.com/) and [Quarto](https://quarto.org/)
+* [GIT](https://git-scm.com/) and [Github](https://github.com/melindahiggins2000)
 * [SPSS](https://www.ibm.com/spss)
 * [SAS](https://www.sas.com/en_us/home.html)
 * [MATLAB](https://www.mathworks.com/products/matlab.html)

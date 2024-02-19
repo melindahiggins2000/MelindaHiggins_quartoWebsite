@@ -1,0 +1,29 @@
+---
+title: "NRSG 736: Quantitative Analysis of Clinical Research Data"
+subtitle: "Emory University, Atlanta, GA, USA"
+description: | 
+  This course expands on 1st year of statistics to improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.
+author:
+  - name: Melinda Higgins
+    url: https://melindahiggins.netlify.app/
+    orcid: 0000-0001-6579-5885
+    affiliation: Director of Biostatistics and Data Core, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA
+    affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins
+date: 02-11-2024
+date-modified: 02/17/2024
+categories: [R, Rmarkdown, SAS, SPSS] 
+image: N736_imageHolder.png
+draft: false 
+---
+
+## Course Objective:
+
+To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.
+
+## Course Description:
+
+This course builds on the required statistical sequence and focuses on practical application of statistics including understanding clinical research questions. Analyzing data is the major emphasis of the course including examining if assumptions of the statistical analysis are being met and interpreting the findings. Course assignments focus on using statistical software and computing resources to analyze data sets from actual clinical research studies and interpretation of output and literature.
+
+
+
+

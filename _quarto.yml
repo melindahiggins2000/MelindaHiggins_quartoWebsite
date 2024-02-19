@@ -17,10 +17,10 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: resources.qmd
-        text: Resources
-      - href: posts.qmd
-        text: Blog
+      - href: courses.qmd
+        text: Courses
+      - href: myrefs.qmd
+        text: Publications
     right:
       - href: cv/HigginsCV_16June2023_noHighlights.pdf
         text: CV

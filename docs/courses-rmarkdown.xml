@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Melinda Higgins - Website Built with Quarto</title>
+<link>https://melindahiggins2.netlify.app/courses.html#category=Rmarkdown</link>
+<atom:link href="https://melindahiggins2.netlify.app/courses-rmarkdown.xml" rel="self" type="application/rss+xml"/>
+<description>Melinda Higgins Website and Blog</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sun, 11 Feb 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>NRSG 736: Quantitative Analysis of Clinical Research Data</title>
+  <dc:creator>Melinda Higgins</dc:creator>
+  <link>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="course-objective" class="level2">
+<h2 class="anchored" data-anchor-id="course-objective">Course Objective:</h2>
+<p>To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description:</h2>
+<p>This course builds on the required statistical sequence and focuses on practical application of statistics including understanding clinical research questions. Analyzing data is the major emphasis of the course including examining if assumptions of the statistical analysis are being met and interpreting the findings. Course assignments focus on using statistical software and computing resources to analyze data sets from actual clinical research studies and interpretation of output and literature.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Rmarkdown</category>
+  <category>SAS</category>
+  <category>SPSS</category>
+  <guid>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</guid>
+  <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://melindahiggins2.netlify.app/courses/Emory_N736_Course/N736_imageHolder.png" medium="image" type="image/png" height="111" width="144"/>
+</item>
+<item>
+  <title>NRSG 741 Big Data Analytics For Healthcare Data</title>
+  <dc:creator>Melinda Higgins</dc:creator>
+  <link>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">COURSE DESCRIPTION</h2>
+<p>This course will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.</p>
+</section>
+<section id="course-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-objectives">COURSE OBJECTIVES</h2>
+<p>At the end of this course the student will be able to successfully:</p>
+<ol type="1">
+<li>Demonstrate knowledge of the principles undergirding the tools of big data analysis in health related research.</li>
+<li>Identify the potential of, and challenges to, incorporating big data analytics to improve the development and testing of precision medicine / nursing interventions.</li>
+<li>Understand the principles of reproducible research and implement an appropriate workflow for data analysis and manuscript / report generation.</li>
+<li>Effectively critique published research of health related studies conducted by using big data theoretical frameworks and research techniques.</li>
+<li>Analyze ethical issues related to the use of big data analytics in health related research</li>
+<li>Demonstrate knowledge of how data are gathered, stored, managed, and analyzed for big data analytics.</li>
+</ol>
+</section>
+<section id="teaching-and-learning" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-and-learning">TEACHING AND LEARNING</h2>
+<p>This course uses a variety of teaching methods, including readings, case presentations, lectures, practical skills application discussion sessions, simulation, and projects.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Rmarkdown</category>
+  <category>Github</category>
+  <guid>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/index.html</guid>
+  <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://melindahiggins2.netlify.app/courses/Emory_N741_Course/hex.v6_blackbgtp_cut.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title>Reproducible Templates for Analysis and Dissemination</title>
+  <dc:creator>Melinda Higgins</dc:creator>
+  <link>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This course will assist you with recreating work that a previous coworker completed, revisiting a project you abandoned some time ago, or simply reproducing a document with a consistent format and workflow. Incomplete information about how the work was done, where the files are, and which is the most recent version can give rise to many complications. This course focuses on the proper documentation creation process, allowing you and your colleagues to easily reproduce the components of your workflow. Throughout this course, you’ll receive helpful demonstrations of RStudio and the R Markdown language and engage in active learning opportunities to help you build a professional online portfolio.</p>
+</section>
+<section id="modules" class="level2">
+<h2 class="anchored" data-anchor-id="modules">Modules:</h2>
+<ol type="1">
+<li>Introduction to Reproducible Research and Dynamic Documentation
+<ul>
+<li>This module provides an introduction to the concepts surrounding reproducibility and the Open Science movement, RStudio and GitHub, and foundational cases and authors in the field.</li>
+</ul></li>
+<li>R Markdown: Syntax, Document, and Presentation Formats
+<ul>
+<li>This module explores the R Markdown syntax to format and customize the layout of presentations or reports and will also look at inserting and creating objects such as tables, images, or video within documents.</li>
+</ul></li>
+<li>R Markdown Templates: Processing and Customizing
+<ul>
+<li>This module goes further with R Markdown to help turn documents, reports, and presentations into templates for easier automation, reproducibility, and customization.</li>
+</ul></li>
+<li>Leveraging Custom Templates from Leading Scientific Journals
+<ul>
+<li>This module delves into custom templates available for websites, books, and scientific publishers, such as Elsevier and the IEEE, with the chance to create your first R Package.</li>
+</ul></li>
+<li>Working in Teams and Disseminating Templates and Reports
+<ul>
+<li>This module focuses on helpful tips for sharing and using the templates you create, as well as methods for organizing content. We’ll also look at a few web-publishing services.</li>
+</ul></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Rmarkdown</category>
+  <guid>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/index.html</guid>
+  <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/coursera_reptemp.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+</channel>
+</rss>

@@ -1,31 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://melindahiggins2.netlify.app/resources.html</loc>
-    <lastmod>2024-02-17T12:47:13.717Z</lastmod>
+    <loc>https://melindahiggins2.netlify.app/posts_custom.html</loc>
+    <lastmod>2024-02-19T00:32:53.125Z</lastmod>
   </url>
   <url>
     <loc>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/index.html</loc>
-    <lastmod>2024-02-17T12:47:11.054Z</lastmod>
+    <lastmod>2024-02-19T00:32:52.120Z</lastmod>
   </url>
   <url>
     <loc>https://melindahiggins2.netlify.app/posts.html</loc>
-    <lastmod>2024-02-17T12:47:09.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://melindahiggins2.netlify.app/about.html</loc>
-    <lastmod>2024-02-17T12:47:08.665Z</lastmod>
+    <lastmod>2024-02-19T00:32:50.822Z</lastmod>
   </url>
   <url>
     <loc>https://melindahiggins2.netlify.app/index.html</loc>
-    <lastmod>2024-02-17T12:47:09.076Z</lastmod>
+    <lastmod>2024-02-19T00:32:47.949Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</loc>
+    <lastmod>2024-02-19T00:32:47.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/index.html</loc>
+    <lastmod>2024-02-19T00:32:46.493Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/about.html</loc>
+    <lastmod>2024-02-19T00:33:18.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/courses.html</loc>
+    <lastmod>2024-02-19T00:33:20.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/index.html</loc>
+    <lastmod>2024-02-19T00:32:46.848Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/index.html</loc>
+    <lastmod>2024-02-19T00:32:47.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melindahiggins2.netlify.app/myrefs.html</loc>
+    <lastmod>2024-02-19T00:33:34.487Z</lastmod>
   </url>
   <url>
     <loc>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/index.html</loc>
-    <lastmod>2024-02-17T12:47:10.404Z</lastmod>
+    <lastmod>2024-02-19T00:32:51.475Z</lastmod>
   </url>
   <url>
     <loc>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/index.html</loc>
-    <lastmod>2024-02-17T12:47:11.687Z</lastmod>
+    <lastmod>2024-02-19T00:32:52.786Z</lastmod>
   </url>
 </urlset>
