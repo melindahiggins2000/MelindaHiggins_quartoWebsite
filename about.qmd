@@ -3,6 +3,23 @@ title: "Research Interest, Skills, Experience and Education"
 ---
 
 ::: panel-tabset
+## **Contact Me**
+
+* [melinda.higgins@emory.edu](mailto:melinda.higgins@emory.edu)
+* 404-727-5180
+* Emory University - School of Nursing
+* 1520 Clifon Road; Atlanta, GA 30322
+
+```{r out.width='80%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-84.32377530428083, 33.79818304004407, zoom = 17) %>%
+  addPopups(
+    -84.32377530428083, 33.79818304004407, 
+    'Here is the <b>School of Nursing</b>'
+  )
+```
+
 ## **Research Interests**
 
 * Reproducible Research
