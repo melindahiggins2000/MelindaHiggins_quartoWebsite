@@ -1,0 +1,45 @@
+---
+title: "Measures of Patient and Surrogate Preparedness for End-of-Life Decision-Making"
+subtitle: "Journal of Pain and Symptom Management"
+description: | 
+  Objective: To develop measures of preparedness for EOL decision-making for patients with end-stage renal disease and their surrogates (an exemplar population).
+author:
+  - name: Melinda Higgins
+    url: https://melindahiggins.netlify.app/
+    orcid: 0000-0001-6579-5885
+    affiliation: Director of Biostatistics and Data Core, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA
+    affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins
+date: 02-21-2024
+date-modified: 02/21/2024
+categories: [IRT, psychometrics] 
+image: song_fig1.png
+draft: false 
+---
+
+## Citation
+
+Song, M.-K., **Higgins, M. K.**, Ward, S. E., Lee, H., Noorani, N., & Happ, M. B. (2024). "Measures of Patient and Surrogate Preparedness for End-of-Life Decision-Making". In _Journal of Pain and Symptom Management_. Elsevier BV. [https://doi.org/10.1016/j.jpainsymman.2024.02.005](https://doi.org/10.1016/j.jpainsymman.2024.02.005)
+
+## Featured Figure
+
+![Figure 1](song_fig1.png)
+
+## Abstract
+
+### Context
+Reliable and valid measures are critical in accurately assessing outcomes of advance care planning interventions (ACP) for end-of-life (EOL) decision-making.
+
+### Objectives
+To develop measures of preparedness for EOL decision-making for patients with end-stage renal disease and their surrogates (an exemplar population).
+
+### Methods
+In this 3-phase study, Phases 1 and 2 included a cross-discipline concept analysis of the preparedness construct, item generation for patient and surrogate scales (82 items), evaluation of content validity and readability, cognitive interviewing, and item reduction. In phase 3, the retained 26 patient and 25 surrogate items were administered to 426 patients and 426 surrogates during a multisite trial of an ACP intervention versus care-as-usual and evaluated internal consistency, 2-week test-retest reliability, and construct validity.
+
+### Results
+Scales were reduced to 20 patient and 19 surrogate items during phase 3. Cronbach's alphas were 0.86 (patient) and 0.90 (surrogate). There was a strong correlation between preparedness at baseline and two weeks for both scales (r = 0.66–0.69, P < 0.001). Confirmatory factor analysis and item-response analyses suggested unidimensionality. A significant correlation was shown between patient preparedness and patient decisional conflict (r = -0.53, P < 0.001), and surrogate preparedness and surrogate decision-making confidence (r = 0.44, P < 0.001). Among those who received the ACP intervention, the effect size of change was medium: Cohen's d = 0.54, P < 0.001 for patients and d = 0.57, P < 0.001 for surrogates.
+
+### Conclusions
+The preparedness scales demonstrated strong psychometric properties. Future studies should examine scale performance in other populations.
+
+### Key Words
+Preparedness; Scale development; End-of-life; Advanced care planning; Dialysis 

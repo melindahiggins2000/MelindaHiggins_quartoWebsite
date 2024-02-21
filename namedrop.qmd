@@ -1,0 +1,48 @@
+---
+title: "namedrop"
+editor: visual
+---
+
+## highlighted references
+
+learn more at https://nucleic-acid.github.io/namedropR/ and it is on CRAN 02/21/2024
+
+```{r}
+#| echo: false
+#| eval: true
+#| message: false
+#| warning: false
+ 
+bib_path <- "myrefs_2024.v2.bib"
+
+# load the package
+library('namedropR')
+
+#drop_name(bib_path, cite_key = "song_measures_2024")
+
+# HTML (note the recommended option use_xaringan, see documentation for details)
+htmltools::includeHTML(
+  drop_name(
+    bib_path,
+    cite_key = "song_measures_2024",
+    export_as = "html",
+    style = "modern",
+    use_xaringan = TRUE,
+    #author_color = "#FF0000",
+    author_weight = "normal",
+    author_size = "10pt",
+    #author_font = "Roboto",
+    #title_color = "#00FF00",
+    title_weight = "bold",
+    title_size = "1.5rem",
+    #title_font = "Playfair Display",
+    journal_color = "#0000FF",
+    journal_weight = "bold",
+    journal_size = "12pt",
+    #journal_font = "Fira Sans",
+    qr_size = 150,
+    qr_color = "#AAAAAA"
+  )
+)
+```
+

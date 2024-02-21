@@ -50,6 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon-32x32.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -79,7 +81,38 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-key-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-key-pubs'] = new List('listing-key-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -140,32 +173,167 @@ div.csl-indent {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Publications</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#featured-publications" id="toc-featured-publications" class="nav-link active" data-scroll-target="#featured-publications">Featured Publications</a></li>
+  <li><a href="#full-publication-list-by-year" id="toc-full-publication-list-by-year" class="nav-link" data-scroll-target="#full-publication-list-by-year">Full Publication List by Year</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Equivalence Testing">Equivalence Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="IRT">IRT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MLM">MLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PLS-PM">PLS-PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SEM">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="psychometrics">psychometrics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publications</h1>
+
+
+
+<section id="featured-publications" class="level2">
+<h2 class="anchored" data-anchor-id="featured-publications">Featured Publications</h2>
+<div id="listing-key-pubs" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="SEM,PLS-PM" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540012475" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./pubs/sherman_stigma_2024/index.html"> <img src="./pubs/sherman_stigma_2024/sherman_fig1.png" class="thumbnail-image"> </a></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
+<div class="body">
+<a href="./pubs/sherman_stigma_2024/index.html">
+<h3 class="no-anchor listing-title">
+Stigma, social and structural vulnerability, and mental health among transgender women: A partial least square path modeling analysis
+</h3>
+<div class="listing-subtitle">
+Journal of Nursing Scholarship
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SEM'); return false;">
+SEM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PLS-PM'); return false;">
+PLS-PM
+</div>
+</div>
+<a href="./pubs/sherman_stigma_2024/index.html">
+<div class="listing-description">
+<p>Existing literature suggests that transgender women (TW) may be at high risk for adverse mental health due to stress attributed to combined experiences of stigma and complex social and structural…</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./pubs/sherman_stigma_2024/index.html">
+<div class="listing-date">
+Feb 21, 2024
+</div>
+<div class="listing-author">
+Melinda Higgins
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="IRT,psychometrics" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708539905176" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./pubs/song_measures_2024/index.html"> <img src="./pubs/song_measures_2024/song_fig1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./pubs/song_measures_2024/index.html">
+<h3 class="no-anchor listing-title">
+Measures of Patient and Surrogate Preparedness for End-of-Life Decision-Making
+</h3>
+<div class="listing-subtitle">
+Journal of Pain and Symptom Management
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('IRT'); return false;">
+IRT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
+psychometrics
+</div>
+</div>
+<a href="./pubs/song_measures_2024/index.html">
+<div class="listing-description">
+<p>Objective: To develop measures of preparedness for EOL decision-making for patients with end-stage renal disease and their surrogates (an exemplar population).</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./pubs/song_measures_2024/index.html">
+<div class="listing-date">
+Feb 21, 2024
+</div>
+<div class="listing-author">
+Melinda Higgins
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="MLM,Equivalence Testing" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540098192" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./pubs/zaccari_yoga_2023/index.html"> <img src="./pubs/zaccari_yoga_2023/visual_abstract.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./pubs/zaccari_yoga_2023/index.html">
+<h3 class="no-anchor listing-title">
+Yoga vs Cognitive Processing Therapy for Military Sexual Trauma–Related Posttraumatic Stress Disorder: A Randomized Clinical Trial
+</h3>
+<div class="listing-subtitle">
+JAMA Network Open
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MLM'); return false;">
+MLM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Equivalence Testing'); return false;">
+Equivalence Testing
+</div>
+</div>
+<a href="./pubs/zaccari_yoga_2023/index.html">
+<div class="listing-description">
+<p>Findings In this randomized clinical trial of 131 women veterans with PTSD who use US Department of Veterans Affairs health care, TCTSY had large within-group effect sizes, equivalent effectiveness…</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./pubs/zaccari_yoga_2023/index.html">
+<div class="listing-date">
+Feb 21, 2024
+</div>
+<div class="listing-author">
+Melinda Higgins
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="full-publication-list-by-year" class="level2">
+<h2 class="anchored" data-anchor-id="full-publication-list-by-year">Full Publication List by Year</h2>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1047,6 +1215,8 @@ Zola, S, C Manzanares, and MK Higgins. 2009. <span>“P3‐070: <span>Early</spa
 </div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

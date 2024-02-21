@@ -1,0 +1,30 @@
+---
+title: "Publications"
+subtitle: "Recent Highlighted Publications"
+listing: 
+  id: key-pubs
+  contents: pubs 
+  type: default
+  sort: "date desc"
+  categories: true
+  max-description-length: 200
+  date-format: medium
+page-layout: full
+title-block-banner: true
+---
+
+## put listing here
+
+::: {#key-pubs}
+:::
+
+## now add more stuff below the listing
+
+some text or other stuff here
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2024 Publications
+
+a fun call out here
+
+:::

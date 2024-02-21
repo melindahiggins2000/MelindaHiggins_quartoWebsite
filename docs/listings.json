@@ -16,12 +16,28 @@
     ]
   },
   {
+    "listing": "/myrefs.html",
+    "items": [
+      "/pubs/sherman_stigma_2024/index.html",
+      "/pubs/song_measures_2024/index.html",
+      "/pubs/zaccari_yoga_2023/index.html"
+    ]
+  },
+  {
     "listing": "/courses.html",
     "items": [
       "/courses/Emory_N736_Course/index.html",
       "/courses/Emory_N741_Course/index.html",
       "/courses/Datacamp_R4SAS/index.html",
       "/courses/Coursera_RepTemplates/index.html"
+    ]
+  },
+  {
+    "listing": "/pubs.html",
+    "items": [
+      "/pubs/sherman_stigma_2024/index.html",
+      "/pubs/song_measures_2024/index.html",
+      "/pubs/zaccari_yoga_2023/index.html"
     ]
   }
 ]
