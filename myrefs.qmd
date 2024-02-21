@@ -152,7 +152,7 @@ nocite: '@*'
 :::
 
 ::: {.callout-note appearance="minimal" collapse="true"}
-## 2010 Publications
+## 2010 and Earlier Publications
 
 ::: {#refs-year2010}
 :::
