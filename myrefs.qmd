@@ -4,7 +4,7 @@ filters:
   - multibib
 validate-yaml: false
 bibliography:
-  year2024: myrefs_2024.bib
+  year2024: myrefs_2024.v2.bib
   year2023: myrefs_2023.bib
   year2022: myrefs_2022.bib
   year2021: myrefs_2021.bib
