@@ -14,12 +14,14 @@ filters:
   - multibib
 validate-yaml: false
 bibliography:
-  year2024: myrefs_2024.v2.bib
+  year2026: myrefs_2026.v1.bib
+  year2025: myrefs_2025.v1.bib
+  year2024: myrefs_2024.v3.bib
   year2023: myrefs_2023.bib
-  year2022: myrefs_2022.bib
+  year2022: myrefs_2022.v2.bib
   year2021: myrefs_2021.bib
   year2020: myrefs_2020.bib
-  year2019: myrefs_2019.bib
+  year2019: myrefs_2019.v2.bib
   year2018: myrefs_2018.bib
   year2017: myrefs_2017.bib
   year2016: myrefs_2016.bib
@@ -38,6 +40,22 @@ nocite: '@*'
 :::
 
 ## Full Publication List by Year
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2026 Publications
+
+::: {#refs-year2026}
+:::
+
+:::
+
+::: {.callout-note appearance="minimal" collapse="true"}
+## 2025 Publications
+
+::: {#refs-year2025}
+:::
+
+:::
 
 ::: {.callout-note appearance="minimal" collapse="true"}
 ## 2024 Publications
