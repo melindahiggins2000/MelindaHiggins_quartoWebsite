@@ -9,13 +9,14 @@
 <link>https://melindahiggins2.netlify.app/posts_custom.html</link>
 <atom:link href="https://melindahiggins2.netlify.app/posts_custom.xml" rel="self" type="application/rss+xml"/>
 <description>Melinda Higgins Website and Blog</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Sun, 11 Feb 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>First blog title</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/index.html</link>
+  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -32,7 +33,11 @@
 background-color: null;
 font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 
@@ -45,7 +50,7 @@ font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <ol>
 <li id="fn1"><p>text to go with the first footnote.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
   author = {Higgins, Melinda},
   title = {First Blog Title},
   date = {2024-02-11},
@@ -58,15 +63,16 @@ Higgins, Melinda. 2024. <span>“First Blog Title.”</span> February 11,
 </div></div></section></div> ]]></description>
   <category>Quarto</category>
   <category>R</category>
-  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost2/butterfly2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>First blog title</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/index.html</link>
+  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -83,7 +89,11 @@ Higgins, Melinda. 2024. <span>“First Blog Title.”</span> February 11,
 background-color: null;
 font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 
@@ -96,7 +106,7 @@ font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <ol>
 <li id="fn1"><p>text to go with the first footnote.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
   author = {Higgins, Melinda},
   title = {First Blog Title},
   date = {2024-02-11},
@@ -109,15 +119,16 @@ Higgins, Melinda. 2024. <span>“First Blog Title.”</span> February 11,
 </div></div></section></div> ]]></description>
   <category>Quarto</category>
   <category>R</category>
-  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost3/butterfly3.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>First blog title</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/index.html</link>
+  <link>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -134,7 +145,11 @@ Higgins, Melinda. 2024. <span>“First Blog Title.”</span> February 11,
 background-color: null;
 font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 
@@ -147,7 +162,7 @@ font-style: inherit;">plot</span>(cars)</span></code></pre></div>
 <ol>
 <li id="fn1"><p>text to go with the first footnote.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{higgins2024,
   author = {Higgins, Melinda},
   title = {First Blog Title},
   date = {2024-02-11},
@@ -160,7 +175,7 @@ Higgins, Melinda. 2024. <span>“First Blog Title.”</span> February 11,
 </div></div></section></div> ]]></description>
   <category>Quarto</category>
   <category>R</category>
-  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/posts/2024-02-11-newpost/butterfly1.jpg" medium="image" type="image/jpeg"/>
 </item>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Melinda Higgins - Website Built with Quarto</title>
+<link>https://melindahiggins2.netlify.app/courses.html#category=Quarto</link>
+<atom:link href="https://melindahiggins2.netlify.app/courses-quarto.xml" rel="self" type="application/rss+xml"/>
+<description>Melinda Higgins Website and Blog</description>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Sun, 24 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>R For SAS Users</title>
+  <dc:creator>Melinda Higgins</dc:creator>
+  <link>https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This <a href="https://statisticalhorizons.com/seminars/r-sas-users/">Statistical Horizons R for SAS course</a> is specifically designed for SAS users who want to learn R for statistics and data analysis and visualization. While this course will get you started transitioning from SAS to R, it will go beyond just “translating SAS code to R.” You’ll also learn the power of the R language and the immense open source R programming community.</p>
+<p>The course will cover the RStudio computing environment, importing and exporting data, data wrangling, visualization, descriptive statistics, and an introduction to modeling. Each lesson will provide a detailed crosswalk of SAS procedures to R functions with specific attention to the similarities and differences (especially related to default settings).</p>
+<p>The course will end with a brief introduction to R Markdown and Quarto for writing automated reproducible analysis reports. You will leave with plenty of analysis examples with R code and workflow pipelines you can apply immediately to your projects.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>SAS</category>
+  <category>Rmarkdown</category>
+  <category>Quarto</category>
+  <guid>https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/</guid>
+  <pubDate>Sun, 24 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/stathorizon_r4sas.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
+</channel>
+</rss>

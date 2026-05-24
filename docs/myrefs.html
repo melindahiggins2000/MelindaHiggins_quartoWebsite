@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Melinda Higgins - Website Built with Quarto - Publications</title>
+<title>Publications – Melinda Higgins - Website Built with Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -57,17 +58,23 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0f678b7eab269e1f93ad2a885b46ecea.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3ba8a247ce943f91e7542a134359d667.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -76,6 +83,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -111,64 +119,91 @@ div.csl-indent {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Melinda Higgins</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html" rel="" target="">
- <span class="menu-text">Courses</span></a>
+    <a class="nav-link" href="./courses.html"> 
+<span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./myrefs.html" rel="" target="" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./myrefs.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./cv/HigginsCV_1March2024_Highlights.pdf" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./cv/HigginsCV_1March2024_Highlights.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/melindahiggins2000" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/melindahiggins2000"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./posts.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -181,7 +216,7 @@ div.csl-indent {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -201,9 +236,10 @@ div.csl-indent {
   <li><a href="#full-publication-list-by-year" id="toc-full-publication-list-by-year" class="nav-link" data-scroll-target="#full-publication-list-by-year">Full Publication List by Year</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Equivalence Testing">Equivalence Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="IRT">IRT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MLM">MLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PLS-PM">PLS-PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SEM">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="psychometrics">psychometrics <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RXF1aXZhbGVuY2UlMjBUZXN0aW5n">Equivalence Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SVJU">IRT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUxN">MLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UExTLVBN">PLS-PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U0VN">SEM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHN5Y2hvbWV0cmljcw==">psychometrics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
 
 
 
@@ -212,35 +248,33 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="featured-publications">Featured Publications</h2>
 <div id="listing-key-pubs" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="SEM,PLS-PM" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540012475" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="0" data-categories="U0VNJTJDUExTLVBN" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540012475" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
 <div class="thumbnail">
-<p><a href="./pubs/sherman_stigma_2024/index.html"> <img src="./pubs/sherman_stigma_2024/sherman_fig1.png" class="thumbnail-image"> </a></p>
+<p><a href="./pubs/sherman_stigma_2024/index.html" class="no-external"></a></p><a href="./pubs/sherman_stigma_2024/index.html" class="no-external">
+<p><img loading="lazy" src="./pubs/sherman_stigma_2024/sherman_fig1.png" class="thumbnail-image"></p>
+</a><p><a href="./pubs/sherman_stigma_2024/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./pubs/sherman_stigma_2024/index.html">
 <h3 class="no-anchor listing-title">
-Stigma, social and structural vulnerability, and mental health among transgender women: A partial least square path modeling analysis
+<a href="./pubs/sherman_stigma_2024/index.html" class="no-external">Stigma, social and structural vulnerability, and mental health among transgender women: A partial least square path modeling analysis</a>
 </h3>
 <div class="listing-subtitle">
-Journal of Nursing Scholarship
+<a href="./pubs/sherman_stigma_2024/index.html" class="no-external">Journal of Nursing Scholarship</a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SEM'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('U0VN'); return false;">
 SEM
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('PLS-PM'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('UExTLVBN'); return false;">
 PLS-PM
 </div>
 </div>
-<a href="./pubs/sherman_stigma_2024/index.html">
 <div class="listing-description">
-<p>Existing literature suggests that transgender women (TW) may be at high risk for adverse mental health due to stress attributed to combined experiences of stigma and complex social and structural…</p>
+<a href="./pubs/sherman_stigma_2024/index.html" class="no-external">Existing literature suggests that transgender women (TW) may be at high risk for adverse mental health due to stress attributed to combined experiences of stigma and complex social and structural…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./pubs/sherman_stigma_2024/index.html">
+<a href="./pubs/sherman_stigma_2024/index.html" class="no-external">
 <div class="listing-date">
 Feb 21, 2024
 </div>
@@ -250,35 +284,33 @@ Melinda Higgins
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="IRT,psychometrics" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708539905176" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="SVJUJTJDcHN5Y2hvbWV0cmljcw==" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708539905176" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
 <div class="thumbnail">
-<p><a href="./pubs/song_measures_2024/index.html"> <img src="./pubs/song_measures_2024/song_fig1.png" class="thumbnail-image"> </a></p>
+<p><a href="./pubs/song_measures_2024/index.html" class="no-external"></a></p><a href="./pubs/song_measures_2024/index.html" class="no-external">
+<p><img loading="lazy" src="./pubs/song_measures_2024/song_fig1.png" class="thumbnail-image"></p>
+</a><p><a href="./pubs/song_measures_2024/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./pubs/song_measures_2024/index.html">
 <h3 class="no-anchor listing-title">
-Measures of Patient and Surrogate Preparedness for End-of-Life Decision-Making
+<a href="./pubs/song_measures_2024/index.html" class="no-external">Measures of Patient and Surrogate Preparedness for End-of-Life Decision-Making</a>
 </h3>
 <div class="listing-subtitle">
-Journal of Pain and Symptom Management
+<a href="./pubs/song_measures_2024/index.html" class="no-external">Journal of Pain and Symptom Management</a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('IRT'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SVJU'); return false;">
 IRT
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('psychometrics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHN5Y2hvbWV0cmljcw=='); return false;">
 psychometrics
 </div>
 </div>
-<a href="./pubs/song_measures_2024/index.html">
 <div class="listing-description">
-<p>Objective: To develop measures of preparedness for EOL decision-making for patients with end-stage renal disease and their surrogates (an exemplar population).</p>
+<a href="./pubs/song_measures_2024/index.html" class="no-external">Objective: To develop measures of preparedness for EOL decision-making for patients with end-stage renal disease and their surrogates (an exemplar population). </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./pubs/song_measures_2024/index.html">
+<a href="./pubs/song_measures_2024/index.html" class="no-external">
 <div class="listing-date">
 Feb 21, 2024
 </div>
@@ -288,35 +320,33 @@ Melinda Higgins
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="MLM,Equivalence Testing" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540098192" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="2" data-categories="TUxNJTJDRXF1aXZhbGVuY2UlMjBUZXN0aW5n" data-listing-date-sort="1708491600000" data-listing-file-modified-sort="1708540098192" data-listing-date-modified-sort="1708491600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="628">
 <div class="thumbnail">
-<p><a href="./pubs/zaccari_yoga_2023/index.html"> <img src="./pubs/zaccari_yoga_2023/visual_abstract.png" class="thumbnail-image"> </a></p>
+<p><a href="./pubs/zaccari_yoga_2023/index.html" class="no-external"></a></p><a href="./pubs/zaccari_yoga_2023/index.html" class="no-external">
+<p><img loading="lazy" src="./pubs/zaccari_yoga_2023/visual_abstract.png" class="thumbnail-image"></p>
+</a><p><a href="./pubs/zaccari_yoga_2023/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./pubs/zaccari_yoga_2023/index.html">
 <h3 class="no-anchor listing-title">
-Yoga vs Cognitive Processing Therapy for Military Sexual Trauma–Related Posttraumatic Stress Disorder: A Randomized Clinical Trial
+<a href="./pubs/zaccari_yoga_2023/index.html" class="no-external">Yoga vs Cognitive Processing Therapy for Military Sexual Trauma–Related Posttraumatic Stress Disorder: A Randomized Clinical Trial</a>
 </h3>
 <div class="listing-subtitle">
-JAMA Network Open
+<a href="./pubs/zaccari_yoga_2023/index.html" class="no-external">JAMA Network Open</a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MLM'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TUxN'); return false;">
 MLM
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Equivalence Testing'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RXF1aXZhbGVuY2UlMjBUZXN0aW5n'); return false;">
 Equivalence Testing
 </div>
 </div>
-<a href="./pubs/zaccari_yoga_2023/index.html">
 <div class="listing-description">
-<p>Findings In this randomized clinical trial of 131 women veterans with PTSD who use US Department of Veterans Affairs health care, TCTSY had large within-group effect sizes, equivalent effectiveness…</p>
+<a href="./pubs/zaccari_yoga_2023/index.html" class="no-external">Findings In this randomized clinical trial of 131 women veterans with PTSD who use US Department of Veterans Affairs health care, TCTSY had large within-group effect sizes, equivalent effectiveness…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./pubs/zaccari_yoga_2023/index.html">
+<a href="./pubs/zaccari_yoga_2023/index.html" class="no-external">
 <div class="listing-date">
 Feb 21, 2024
 </div>
@@ -346,7 +376,7 @@ No matching items
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2024" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2024" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-alexander_caregiving_2024" class="csl-entry" role="listitem">
 Alexander, K, N Cave, S Oliver, S Bennett, M Higgins, K Hepburn, C Clevenger, and F Epps. 2024. <span>“Caregiving <span>While</span> <span>Black</span>: <span>A</span> Novel, Online Culturally Tailored Psychoeducation Course for <span>Black</span> Dementia Caregivers.”</span> <em>Gerontologist</em>, February. <a href="https://doi.org/10.1093/geront/gnae009">https://doi.org/10.1093/geront/gnae009</a>.
 </div>
@@ -375,7 +405,7 @@ Song, Mi-Kyung, Melinda K. Higgins, Sandra E. Ward, Haerim Lee, Naziya Noorani, 
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2023" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2023" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-brewster_effect_2023" class="csl-entry" role="listitem">
 Brewster, GS, M Higgins, MV McPhillips, K Bonds Johnson, F Epps, KA Yeager, DL Bliwise, and K Hepburn. 2023. <span>“The <span>Effect</span> of <span>Tele</span>-<span>Savvy</span> on <span>Sleep</span> <span>Quality</span> and <span>Insomnia</span> in <span>Caregivers</span> of <span>Persons</span> <span>Living</span> with <span>Dementia</span>.”</span> <em>Clin Interv Aging</em> 18: 2117–27. <a href="https://doi.org/10.2147/CIA.S425741">https://doi.org/10.2147/CIA.S425741</a>.
 </div>
@@ -425,7 +455,7 @@ Zaccari, B, M Higgins, TN Haywood, M Patel, D Emerson, K Hubbard, JM Loftis, and
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2022" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2022" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-aga_foot_2022" class="csl-entry" role="listitem">
 Aga, F, SB Dunbar, T Kebede, S Guteta, MK Higgins, and RA Gary. 2022. <span>“Foot Self-Care Behaviour in Type 2 Diabetes Adults with and Without Comorbid Heart Failure.”</span> <em>Nurs Open</em> 9 (5): 2473–85. <a href="https://doi.org/10.1002/nop2.1265">https://doi.org/10.1002/nop2.1265</a>.
 </div>
@@ -490,7 +520,7 @@ Zaccari, B, ADF Sherman, M Higgins, and U Ann Kelly. 2022. <span>“Trauma <span
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2021" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2021" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-bidwell_caregiver_2021" class="csl-entry" role="listitem">
 Bidwell, JT, CE Hostinar, MK Higgins, MA Abshire, F Cothran, B Butts, AH Miller, E Corwin, and SB Dunbar. 2021. <span>“Caregiver Subjective and Physiological Markers of Stress and Patient Heart Failure Severity in Family Care Dyads.”</span> <em>Psychoneuroendocrinology</em> 133 (November): 105399. <a href="https://doi.org/10.1016/j.psyneuen.2021.105399">https://doi.org/10.1016/j.psyneuen.2021.105399</a>.
 </div>
@@ -534,7 +564,7 @@ Walsh, LM, M Goodson, K Pfeiffer, M Higgins, and B Robertson. 2021. <span>“An 
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2020" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2020" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-aga_sociodemographic_2020" class="csl-entry" role="listitem">
 Aga, F, SB Dunbar, T Kebede, MK Higgins, and R Gary. 2020a. <span>“Sociodemographic and Clinical Correlates of Diabetes Self-Efficacy in Adults with Type 2 Diabetes and Comorbid Heart Failure.”</span> <em>Res Nurs Health</em> 43 (1): 79–89. <a href="https://doi.org/10.1002/nur.21999">https://doi.org/10.1002/nur.21999</a>.
 </div>
@@ -605,7 +635,7 @@ Wittig-Wells, D, M Higgins, J Carter, E Holmes, A Jacob, J Samms-McPherson, P Sa
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2019" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2019" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-aga_correlates_2019" class="csl-entry" role="listitem">
 Aga, FB, SB Dunbar, T Kebede, MK Higgins, and RA Gary. 2019. <span>“Correlates of <span>Self</span>-<span>Care</span> <span>Behaviors</span> in <span>Adults</span> <span>With</span> <span>Type</span> 2 <span>Diabetes</span> and <span>Comorbid</span> <span>Heart</span> <span>Failure</span>.”</span> <em>Diabetes Educ</em> 45 (4): 380–96. <a href="https://doi.org/10.1177/0145721719855752">https://doi.org/10.1177/0145721719855752</a>.
 </div>
@@ -670,7 +700,7 @@ Wright, ML, M Higgins, JY Taylor, and VS Hertzberg. 2019. <span>“<span>NuRsing
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2018" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2018" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-bidwell_shared_2018" class="csl-entry" role="listitem">
 Bidwell, JT, MK Higgins, CM Reilly, PC Clark, and SB Dunbar. 2018. <span>“Shared Heart Failure Knowledge and Self-Care Outcomes in Patient-Caregiver Dyads.”</span> <em>Heart Lung</em> 47 (1): 32–39. <a href="https://doi.org/10.1016/j.hrtlng.2017.11.001">https://doi.org/10.1016/j.hrtlng.2017.11.001</a>.
 </div>
@@ -729,7 +759,7 @@ Spikes, T, S Dunbar, M Higgins, P Mehta, L Lee, and G Lundberg. 2018. <span>“N
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2017" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2017" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-cook_randomized_2017" class="csl-entry" role="listitem">
 Cook, LM, J Nichols-Dada, S Damani, V Lawrence, S Layson, D Mitchell, S Muhammad, et al. 2017. <span>“Randomized <span>Clinical</span> <span>Trial</span> of 24% <span>Oral</span> <span>Sucrose</span> to <span>Decrease</span> <span>Pain</span> <span>Associated</span> <span>With</span> <span>Peripheral</span> <span>Intravenous</span> <span>Catheter</span> <span>Insertion</span> in <span>Preterm</span> and <span>Term</span> <span>Newborns</span>.”</span> <em>Adv Neonatal Care</em> 17 (1): E3–11. <a href="https://doi.org/10.1097/ANC.0000000000000326">https://doi.org/10.1097/ANC.0000000000000326</a>.
 </div>
@@ -782,7 +812,7 @@ Zhang, W, M Higgins, C Wongtrakool, and R Sadikot. 2017. <span>“Predicting <sp
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2016" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2016" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-brantley_clinical_2016" class="csl-entry" role="listitem">
 Brantley, A, S Collins-Brown, J Kirkland, M Knapp, J Pressley, M Higgins, and JP McMurtry. 2016. <span>“Clinical <span>Trial</span> of an <span>Educational</span> <span>Program</span> to <span>Decrease</span> <span>Monitor</span> <span>Alarms</span> in a <span>Medical</span> <span>Intensive</span> <span>Care</span> <span>Unit</span>.”</span> <em>AACN Adv Crit Care</em> 27 (3): 283–89. <a href="https://doi.org/10.4037/aacnacc2016110">https://doi.org/10.4037/aacnacc2016110</a>.
 </div>
@@ -841,7 +871,7 @@ Thomas, TL, DP Stephens, V Johnson-Mallard, and M Higgins. 2016. <span>“Young 
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2015" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2015" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-anderson_changes_2015" class="csl-entry" role="listitem">
 Anderson, AM, MK Higgins, RL Ownby, and D Waldrop-Valverde. 2015. <span>“Changes in Neurocognition and Adherence over Six Months in <span>HIV</span>-Infected Individuals with Cocaine or Heroin Dependence.”</span> <em>AIDS Care</em> 27 (3): 333–37. <a href="https://doi.org/10.1080/09540121.2014.985183">https://doi.org/10.1080/09540121.2014.985183</a>.
 </div>
@@ -909,7 +939,7 @@ Wittig-Wells, DR, MK Higgins, SE Shapiro, J Samms-McPherson, and DS Winterboer. 
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2014" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2014" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-appiagyei_informing_2014" class="csl-entry" role="listitem">
 Appiagyei, AA, RN Kiriinya, JM Gross, DN Wambua, EO Oywer, AK Kamenju, MK Higgins, PL Riley, and MF Rogers. 2014. <span>“Informing the Scale-up of <span>Kenya</span>’s Nursing Workforce: A Mixed Methods Study of Factors Affecting Pre-Service Training Capacity and Production.”</span> <em>Hum Resour Health</em> 12 (August): 47. <a href="https://doi.org/10.1186/1478-4491-12-47">https://doi.org/10.1186/1478-4491-12-47</a>.
 </div>
@@ -971,7 +1001,7 @@ Thomas, TL, O Strickland, R DiClemente, and M Higgins. 2014. <span>“Increasing
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2013" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2013" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-desaulniers_clinical_2013" class="csl-entry" role="listitem">
 Desaulniers, G, M Higgins, and C Vena. 2013. <span>“<span>CLINICAL</span> <span>UTILITY</span> <span>OF</span> <span>PULSE</span> <span>OXIMETRY</span> <span>SCREENING</span> <span>FOR</span> <span>SLEEP</span> <span>DISORDERED</span> <span>BREATHING</span> <span>IN</span> <span>PATIENTS</span> <span>WITH</span> <span>NON</span>-<span>SMALL</span> <span>CELL</span> <span>LUNG</span> <span>CANCER</span>.”</span> <em>ONCOLOGY NURSING FORUM</em> 40 (6): E446–46. <a href="https://www.webofscience.com/api/gateway?GWVersion=2\&amp;SrcApp=PARTNER_APP\&amp;SrcAuth=LinksAMR\&amp;KeyUT=WOS:000326847400087\&amp;DestLinkType=FullRecord\&amp;DestApp=ALL_WOS\&amp;UsrCustomerID=26b1d2830af64ebf721d972c41b398ba">https://www.webofscience.com/api/gateway?GWVersion=2\&amp;SrcApp=PARTNER_APP\&amp;SrcAuth=LinksAMR\&amp;KeyUT=WOS:000326847400087\&amp;DestLinkType=FullRecord\&amp;DestApp=ALL_WOS\&amp;UsrCustomerID=26b1d2830af64ebf721d972c41b398ba</a>.
 </div>
@@ -1036,7 +1066,7 @@ Zellner, AB, K Hepburn, MK Higgins, M Robinson, and M Parker. 2013. <span>“<sp
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2012" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2012" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-berg_sleep_2012" class="csl-entry" role="listitem">
 Berg, SK, M Higgins, CM Reilly, JJ Langberg, and SB Dunbar. 2012. <span>“Sleep Quality and Sleepiness in Persons with Implantable Cardioverter Defibrillators: Outcome from a Clinical Randomized Longitudinal Trial.”</span> <em>Pacing Clin Electrophysiol</em> 35 (4): 431–43. <a href="https://doi.org/10.1111/j.1540-8159.2011.03328.x">https://doi.org/10.1111/j.1540-8159.2011.03328.x</a>.
 </div>
@@ -1086,7 +1116,7 @@ Thomas, TL, OL Strickland, R DiClemente, M Higgins, and M Haber. 2012. <span>“
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2011" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2011" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-gary_combined_2011" class="csl-entry" role="listitem">
 Gary, RA, ME Cress, MK Higgins, AL Smith, and SB Dunbar. 2011. <span>“Combined Aerobic and Resistance Exercise Program Improves Task Performance in Patients with Heart Failure.”</span> <em>Arch Phys Med Rehabil</em> 92 (9): 1371–81. <a href="https://doi.org/10.1016/j.apmr.2011.02.022">https://doi.org/10.1016/j.apmr.2011.02.022</a>.
 </div>
@@ -1124,7 +1154,7 @@ Villar, JA, NA Brutto, M Higgins, MR Brown, ME Wilson, and A Muir. 2011. <span>�
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="refs-year2010" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs-year2010" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-aust_fourier_1994" class="csl-entry" role="listitem">
 Aust, JF, MK Higgins, P Groner, SL Morgan, and ML Myrick. 1994. <span>“Fourier Transform <span>Raman</span> Spectroscopic Studies of a Polyimide Curing Reaction.”</span> <em>Analytica Chimica Acta</em> 293 (1-2): 119–28. <a href="https://doi.org/10.1016/0003-2670(94)00100-6">https://doi.org/10.1016/0003-2670(94)00100-6</a>.
 </div>
@@ -1251,18 +1281,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1294,11 +1313,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/melindahiggins2\.netlify\.app\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1308,8 +1364,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1321,7 +1386,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1365,6 +1552,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1390,6 +1578,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1467,6 +1681,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

@@ -9,20 +9,21 @@
 <link>https://melindahiggins2.netlify.app/courses.html#category=SPSS</link>
 <atom:link href="https://melindahiggins2.netlify.app/courses-spss.xml" rel="self" type="application/rss+xml"/>
 <description>Melinda Higgins Website and Blog</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Sun, 11 Feb 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>NRSG 736: Quantitative Analysis of Clinical Research Data</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</link>
+  <link>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="course-objective" class="level2">
 <h2 class="anchored" data-anchor-id="course-objective">Course Objective:</h2>
-<p>To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
+<p>The primary objective of <a href="https://melindahiggins2000.github.io/N736/">Emory NRSG 736 “Quantitative Analysis of Clinical Research Data”</a> is to build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
 </section>
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description:</h2>
@@ -36,7 +37,7 @@
   <category>Rmarkdown</category>
   <category>SAS</category>
   <category>SPSS</category>
-  <guid>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/courses/Emory_N736_Course/N736_imageHolder.png" medium="image" type="image/png" height="111" width="144"/>
 </item>

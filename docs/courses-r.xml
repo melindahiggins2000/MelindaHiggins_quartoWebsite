@@ -9,20 +9,49 @@
 <link>https://melindahiggins2.netlify.app/courses.html#category=R</link>
 <atom:link href="https://melindahiggins2.netlify.app/courses-r.xml" rel="self" type="application/rss+xml"/>
 <description>Melinda Higgins Website and Blog</description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 11 Feb 2024 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Sun, 24 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>R For SAS Users</title>
+  <dc:creator>Melinda Higgins</dc:creator>
+  <link>https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This <a href="https://statisticalhorizons.com/seminars/r-sas-users/">Statistical Horizons R for SAS course</a> is specifically designed for SAS users who want to learn R for statistics and data analysis and visualization. While this course will get you started transitioning from SAS to R, it will go beyond just “translating SAS code to R.” You’ll also learn the power of the R language and the immense open source R programming community.</p>
+<p>The course will cover the RStudio computing environment, importing and exporting data, data wrangling, visualization, descriptive statistics, and an introduction to modeling. Each lesson will provide a detailed crosswalk of SAS procedures to R functions with specific attention to the similarities and differences (especially related to default settings).</p>
+<p>The course will end with a brief introduction to R Markdown and Quarto for writing automated reproducible analysis reports. You will leave with plenty of analysis examples with R code and workflow pipelines you can apply immediately to your projects.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>SAS</category>
+  <category>Rmarkdown</category>
+  <category>Quarto</category>
+  <guid>https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/</guid>
+  <pubDate>Sun, 24 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://melindahiggins2.netlify.app/courses/StatHorizons_R4SAS/stathorizon_r4sas.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
 <item>
   <title>NRSG 736: Quantitative Analysis of Clinical Research Data</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</link>
+  <link>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="course-objective" class="level2">
 <h2 class="anchored" data-anchor-id="course-objective">Course Objective:</h2>
-<p>To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
+<p>The primary objective of <a href="https://melindahiggins2000.github.io/N736/">Emory NRSG 736 “Quantitative Analysis of Clinical Research Data”</a> is to build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
 </section>
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description:</h2>
@@ -36,22 +65,23 @@
   <category>Rmarkdown</category>
   <category>SAS</category>
   <category>SPSS</category>
-  <guid>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/courses/Emory_N736_Course/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/courses/Emory_N736_Course/N736_imageHolder.png" medium="image" type="image/png" height="111" width="144"/>
 </item>
 <item>
   <title>NRSG 741 Big Data Analytics For Healthcare Data</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/index.html</link>
+  <link>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">COURSE DESCRIPTION</h2>
-<p>This course will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.</p>
+<p>This <a href="https://melindahiggins2000.github.io/N741bigdata/">Emory NRSG 741, Big Data Analytics for Healthcare course</a> will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.</p>
 </section>
 <section id="course-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="course-objectives">COURSE OBJECTIVES</h2>
@@ -76,22 +106,23 @@
   <category>R</category>
   <category>Rmarkdown</category>
   <category>Github</category>
-  <guid>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/courses/Emory_N741_Course/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/courses/Emory_N741_Course/hex.v6_blackbgtp_cut.png" medium="image" type="image/png" height="167" width="144"/>
 </item>
 <item>
   <title>R For SAS Users</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/index.html</link>
+  <link>https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>If you have experience with SAS and want to learn R, this is the course for you. R is FREE (cost) and OPEN (license) and is one of the fastest growing software languages for statistics and data science. This course is a gentle introduction to the R language with every chapter providing a detailed mapping of R functions to SAS procedures highlighting similarities and differences. You will orient yourself in the R environment and discover how to wrangle, visualize, and model data plus customize your output for final presentation. Throughout the course, you will follow a consistent workflow of data quality checking and cleaning, exploring relationships, modeling, and presenting results. You will leave this course with coded examples that provide a template to use immediately with a dataset of your own.</p>
+<p>If you have experience with SAS and want to learn R, this is the course for you on <a href="https://www.datacamp.com/courses/r-for-sas-users">Datacamp</a>. R is FREE (cost) and OPEN (license) and is one of the fastest growing software languages for statistics and data science. This course is a gentle introduction to the R language with every chapter providing a detailed mapping of R functions to SAS procedures highlighting similarities and differences. You will orient yourself in the R environment and discover how to wrangle, visualize, and model data plus customize your output for final presentation. Throughout the course, you will follow a consistent workflow of data quality checking and cleaning, exploring relationships, modeling, and presenting results. You will leave this course with coded examples that provide a template to use immediately with a dataset of your own.</p>
 
 
 </section>
@@ -99,22 +130,23 @@
  ]]></description>
   <category>R</category>
   <category>SAS</category>
-  <guid>https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/courses/Datacamp_R4SAS/datacamp_r4sas.png" medium="image" type="image/png" height="88" width="144"/>
 </item>
 <item>
   <title>Reproducible Templates for Analysis and Dissemination</title>
   <dc:creator>Melinda Higgins</dc:creator>
-  <link>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/index.html</link>
+  <link>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course will assist you with recreating work that a previous coworker completed, revisiting a project you abandoned some time ago, or simply reproducing a document with a consistent format and workflow. Incomplete information about how the work was done, where the files are, and which is the most recent version can give rise to many complications. This course focuses on the proper documentation creation process, allowing you and your colleagues to easily reproduce the components of your workflow. Throughout this course, you’ll receive helpful demonstrations of RStudio and the R Markdown language and engage in active learning opportunities to help you build a professional online portfolio.</p>
+<p>This <a href="https://www.coursera.org/learn/reproducible-templates-analysis">Coursera “Reproducible Templates for Analysis and Dissemination” course</a> will assist you with recreating work that a previous coworker completed, revisiting a project you abandoned some time ago, or simply reproducing a document with a consistent format and workflow. Incomplete information about how the work was done, where the files are, and which is the most recent version can give rise to many complications. This course focuses on the proper documentation creation process, allowing you and your colleagues to easily reproduce the components of your workflow. Throughout this course, you’ll receive helpful demonstrations of RStudio and the R Markdown language and engage in active learning opportunities to help you build a professional online portfolio.</p>
 </section>
 <section id="modules" class="level2">
 <h2 class="anchored" data-anchor-id="modules">Modules:</h2>
@@ -147,7 +179,7 @@
  ]]></description>
   <category>R</category>
   <category>Rmarkdown</category>
-  <guid>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/index.html</guid>
+  <guid>https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/</guid>
   <pubDate>Sun, 11 Feb 2024 05:00:00 GMT</pubDate>
   <media:content url="https://melindahiggins2.netlify.app/courses/Coursera_RepTemplates/coursera_reptemp.png" medium="image" type="image/png" height="74" width="144"/>
 </item>

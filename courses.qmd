@@ -8,7 +8,7 @@ listing:
   sort: [title] 
   categories: true
   feed:
-    categories: [R, Rmarkdown, Github, SPSS, SAS]
+    categories: [R, Rmarkdown, Quarto, Github, SPSS, SAS]
   max-description-length: 200
   date-format: medium
 page-layout: full

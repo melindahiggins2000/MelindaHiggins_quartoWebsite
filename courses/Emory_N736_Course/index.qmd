@@ -18,7 +18,7 @@ draft: false
 
 ## Course Objective:
 
-To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.
+The primary objective of [Emory NRSG 736 "Quantitative Analysis of Clinical Research Data"](https://melindahiggins2000.github.io/N736/) is to build and expand upon the statistical theory and methods learned in BIOS 500 and 501 (1 year of introductory stats) and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.
 
 ## Course Description:
 

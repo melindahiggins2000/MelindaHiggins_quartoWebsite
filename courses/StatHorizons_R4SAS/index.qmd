@@ -1,0 +1,28 @@
+---
+title: "R For SAS Users"
+subtitle: "Statistical Horizons"
+description: | 
+  This course is specifically designed for SAS users who want to learn R for statistics and data analysis and visualization. While this course will get you started transitioning from SAS to R, it will go beyond just “translating SAS code to R.” You’ll also learn the power of the R language and the immense open source R programming community.
+author:
+  - name: Melinda Higgins
+    url: https://melindahiggins.netlify.app/
+    orcid: 0000-0001-6579-5885
+    affiliation: Director of Biostatistics and Data Team, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA
+    affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins
+date: 05-24-2026
+date-modified: 05/24/2026
+categories: [R, SAS, Rmarkdown, Quarto] 
+image: stathorizon_r4sas.png
+draft: false 
+---
+
+## Course Description
+
+This [Statistical Horizons R for SAS course](https://statisticalhorizons.com/seminars/r-sas-users/) is specifically designed for SAS users who want to learn R for statistics and data analysis and visualization. While this course will get you started transitioning from SAS to R, it will go beyond just “translating SAS code to R.” You’ll also learn the power of the R language and the immense open source R programming community.
+
+The course will cover the RStudio computing environment, importing and exporting data, data wrangling, visualization, descriptive statistics, and an introduction to modeling. Each lesson will provide a detailed crosswalk of SAS procedures to R functions with specific attention to the similarities and differences (especially related to default settings).
+
+The course will end with a brief introduction to R Markdown and Quarto for writing automated reproducible analysis reports. You will leave with plenty of analysis examples with R code and workflow pipelines you can apply immediately to your projects.
+
+
+
